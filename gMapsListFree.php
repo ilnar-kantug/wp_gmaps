@@ -29,8 +29,10 @@ require_once GMAPSL_PLUGIN_DIR . '\inc\activate.php';
 require_once GMAPSL_PLUGIN_DIR . '\inc\admin_menu.php';
 //all other functions
 require_once GMAPSL_PLUGIN_DIR . '\inc\helpers.php';
-//all other functions
+//enqueueing scripts
 require_once GMAPSL_PLUGIN_DIR . '\inc\enqueue.php';
+//ajax magic
+require_once GMAPSL_PLUGIN_DIR . '\inc\ajaxhandler.php';
 
 
 

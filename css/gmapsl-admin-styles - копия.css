@@ -1,4 +1,4 @@
-.toggle-btn {
+.gmapsl-toggle {
   width: 80px;
   height: 40px;
   margin: 10px;
@@ -13,13 +13,13 @@
   transition: background-color .40s ease-in-out;
   cursor: pointer;
 }
-.toggle-btn.active {
+.gmapsl-toggle.active {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVQ4T6WT0RWDMAhFeZs4ipu0mawZpaO4yevBc6hUIWLNd+4NeQDk5sE/PMkZwFvZywKSTxF5iUgH0C4JHGyF97IggFVSqyCFga0CvQSg70Mdwd8QSSr4sGBMcgavAgdvwQCtApvA2uKr1x7Pu++06ItrF5LXPB/CP4M0kKTwYRIDyRAOR9lJTuF0F0hOAJbKopVHOZN9ACS0UgowIx8ZAAAAAElFTkSuQmCC") no-repeat 10px center #2ecc71;
 }
-.toggle-btn.active .round-btn {
+.gmapsl-toggle.active .round-btn {
   left: 45px;
 }
-.toggle-btn .round-btn {
+.gmapsl-toggle .clicker-btn {
   width: 30px;
   height: 30px;
   background-color: #fff;
@@ -34,7 +34,7 @@
   -o-transition: all .30s ease-in-out;
   transition: all .30s ease-in-out;
 }
-.toggle-btn .cb-value {
+.gmapsl-toggle .cb-value {
   position: absolute;
   left: 0;
   right: 0;
